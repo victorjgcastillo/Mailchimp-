@@ -9,7 +9,10 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 40px;
     background: white;
 }
+h2 {
+    font-size: medium;
 
+}
 main{
     display: inline-block;
     max-width: max-content;
@@ -18,9 +21,7 @@ main{
     padding-right:10px;
     padding-bottom: 40;
 }
-.divh1{
-    padding: 0px;
-}
+
 .clearfix{
     clear: both;
 }
