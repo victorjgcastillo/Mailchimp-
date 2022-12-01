@@ -5,8 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mailchimp sign-up form</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <header>
+        <div class="mono"> 
+            <img src="data:image/png;base64,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" width="200">
+        </div>
+    </header>
+<main>
+    <div>
+    <h1>Welcome to Mailchimp</h1>
+    <p>Find your people. Engage your customers. Build your brand.</p>  
+     <p>Do it all with Mailchimp´s Marketing Platform. Already have account</p>
+    <a href="/">log in</a>
+    </div>
+    <div>
+         <h2> Email </h2>
+           <input type="email" size="80" name="e-mail">
+         <h2>Username</h2>
+           <input type="Username" size="80" name="Username" required>
+         <h2>Password</h2>
+           <input type="password" size="80" name="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
     
+    </div>
+    <div class="clearfix"></div>
+
+    <div class="lista1">    
+            <ul>
+            <li>One lowercase character</li>
+            <li>One uppercase character</li>
+            <li>One number</li>
+            </ul>
+    </div>
+     <div class="lista2">     
+        <ul>
+            <li>One special character</li>
+            <li>8 characters minimum</li>
+        </ul>
+      </div>   
+
+        <div class="clearfix"></div>
+           
+        <div class="boton"> 
+            <button type="submit">Sign Up</button>
+            
+        </div>
+
+        <div type="input1">
+            <input type="checkbox" name="spam" value="spam">
+        </div>
+
+        <div class="divP">
+            <p>I don´t want to receive emails about</p> 
+             <p>new Mailchimp products, best practices, or offers</p>
+        </div>
+        <div class="clearfix"></div>
+     
+        
+
+        <p>By clicking the "Sign Up" button you are creating a Mailchimp account and you agree </p> 
+         <p>  to Machimp´s <a href= "termOfUse"> Terms of Use</a> and <a href="privacyPolicy">Privacy Policy</a>.</p>
+</main>
+</div>
 </body>
 </html>

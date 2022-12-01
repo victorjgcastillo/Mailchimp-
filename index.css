@@ -1,0 +1,56 @@
+/*{
+margin: 10;
+padding: 10;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}*/
+
+.mono {
+    float:left;
+    padding: 40px;
+    background: white;
+}
+
+main{
+    display: inline-block;
+    max-width: max-content;
+    padding-top: 40;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-bottom: 40;
+}
+.divh1{
+    padding: 0px;
+}
+.clearfix{
+    clear: both;
+}
+
+.lista1{
+
+    float: left;
+    padding-left: 5px;
+    padding-top: 10px;
+    
+    padding-bottom: 10px;
+}
+.lista2{
+  
+    float: right;
+    padding-right: 30px;
+    padding-top: 10px;
+   
+}
+
+.boton{
+    float: left;
+    padding: 50px;
+    background: whitesmoke;
+}
+
+.input1{
+    padding-left: 10px;
+}
+
+.divP{
+   padding-left: 50px;
+}
